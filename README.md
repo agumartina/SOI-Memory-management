@@ -39,6 +39,9 @@ Se debe implementar el comando _malloc_control_, que permita seleccionar el algo
 ### Memory Map
 Mejorar el comando _malloc_ a partir del uso de la syscall _mmap_. Justificar su utilización.  Por qué no se utiliza siempre el comando _mmap_?
 
+### Valgrind
+Se debe utilizar el conjunto de herramientas provistas por Valgrind para realizar un análisis dinámico y profiling del trabajo. Documentarlo.
+
 ### Verificación
 Se deberá presentar un plan de verificación. Se debe incluir un archivo main.c para la verificación de la librería.
 
@@ -58,4 +61,5 @@ Se deberá presentar un plan de verificación. Se debe incluir un archivo main.c
 - [malloc(3): allocate/free dynamic memory - Linux man page](https://linux.die.net/man/3/malloc "man malloc(3)")
 - The Linux Programming Interface. Chap 7. Memory Allocation
 - pdfs shown in class
+- [Valgrind QSG](https://valgrind.org/docs/manual/quick-start.html)
 
