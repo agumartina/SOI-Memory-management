@@ -39,7 +39,7 @@ Se debe implementar el comando _malloc_control_, que permita seleccionar el algo
 ### Memory Map
 Mejorar el comando _malloc_ a partir del uso de la syscall _mmap_. Justificar su utilización.  Por qué no se utiliza siempre el comando _mmap_?
 
-### Valgrind
+### Valgrind (opcional)
 Se debe utilizar el conjunto de herramientas provistas por Valgrind para realizar un análisis dinámico y profiling del trabajo. Documentarlo.
 
 ### Verificación
